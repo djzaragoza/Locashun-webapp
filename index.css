@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+body {
+    color: white;
+    background-color: #00cdcd;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.dodgerblue {
+    color: #ffb90f;
+}
+
+h1 {
+    font-size: 4em;
+    padding: .25em;
+    letter-spacing: -5px;
+}
+
+h3 {
+    font-weight: 300;
+    letter-spacing: .5em;
+}
+
+@media (max-width: 550px) {
+    h3 {
+        letter-spacing: .25em;
+    }
+}
+
